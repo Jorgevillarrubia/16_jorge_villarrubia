@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <h1>Practica 2_4_1</h1>
+    <title>Jorge Villarrubia</title>
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .form_button{
+            display: block;
+            margin-top: 15px;
+            background-color: rgb(79, 60, 96);
+            color: white;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="jorge.villarrubia@educa.madrid.org" method="post">
+        <fieldset>
+            <legend>Personajes</legend>
+            <label>Superheroe favorito</label>
+            <input list="Superherues" name="Superherues">
+            <datalist id="Superherues">
+                <option value="Dedpool"></option>
+                <option value="Lobezno"></option>
+                <option value="Spiderman"></option>
+            </datalist>
+            <label>Color</label>
+            <input type="Color" name="Color">
+        </fieldset>
+        <fieldset>
+            <legend>Datos</legend>
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre">
+            <label for="Telefono">Telefono</label>
+            <input type="number" name="Telefono">
+        </fieldset>
+        <input type="submit">
+    </form>   
+</body>
+
+</html>
