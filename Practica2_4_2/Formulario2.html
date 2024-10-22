@@ -43,26 +43,31 @@
             <label for="Fecha">Fecha</label>
             <input type="date">
             <label for="Contraseña">Contraseña</label>
-            <input type="name">
+            <input type="password">
         </fieldset>
         <fieldset>
             <legend>Seleciona la forma de contacto preferida</legend>
 
-            <div>
-                <input type="radio" id="Email" name="drone" value="Email" checked />
-                <label for="Email">Email</label>
-            </div>
-
-            <div>
-                <input type="radio" id="Carta" name="drone" value="Carta" />
-                <label for="Carta">Carta</label>
-            </div>
-
-            <div>
-                <input type="radio" id="Contacto" name="drone" value="Contacto"
-                <label> Contacto</label>
+            <div style="display: flex;gap: 8px;">
+                <input type="radio" id="drone" name="Correo" value="Correo" />
+                <label for="drone">correo</label>
+                <input type="radio" id="drone" name="Carta" value="Carta" />
+                <label for="drone">Carta</label>
+                <input type="radio" id="drone" name="contacto" value="Contacto" />
+                <label for="drone">Contacto</label>
         </fieldset>
-                <input type="submit">
+        <fieldset>
+            <legend>Selecciona tus asignaturas favoritas</legend>
+            <div style="display: flex;gap: 8px;">
+                <input type="checkbox" id="asignaturas" name="AplicacionesWeb" value="AplicacionesWeb" />
+                <label for="AplicacionesWeb"> Aplicaciones Web</label>
+            </div>
+            <div style="display: flex;gap: 8px;">
+            <input type="checkbox" id="asignaturas" name="SeguridadInformatica" value="SeguridadInformatica" />
+            <label for="asignaturas">Seguridad Informatica</label>
+            </div>
+        </fieldset>
+        <input type="submit">
     </form>
 </body>
 
