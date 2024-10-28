@@ -1,0 +1,30 @@
+h1{
+    color: aqua;
+}
+h2{
+    color: blueviolet;
+}
+h3{
+    font-weight: bolder;
+    font-style: italic;
+}
+.negrita{
+    font-weight: bolder;
+}
+.azul{
+    font-weight: bolder;
+    color: blue;
+}
+.gris{
+    font-size: 150%;
+    font-variant:small-caps ;
+    color: grey;
+}
+.verde{
+    font-weight: bolder;
+    color: green;
+}
+#rojo{
+    color: red;
+    font-weight: bolder;
+}
