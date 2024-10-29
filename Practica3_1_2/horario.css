@@ -1,0 +1,20 @@
+caption{
+    border-radius: 300%;
+    background-color: black;
+    color: aliceblue;
+    font-style: oblique;
+
+}
+
+th, td{
+    border: 5px outset;
+    position: unset;
+    width: 10%;
+    margin: 2%;
+    
+}
+
+
+.ingles{
+    background-color: green;
+}
