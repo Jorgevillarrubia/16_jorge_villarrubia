@@ -11,10 +11,22 @@ th, td{
     position: unset;
     width: 10%;
     margin: 2%;
-    
+
 }
 
 
 .ingles{
     background-color: green;
+}
+.Sinformatica{
+    background-color: rgb(236, 0, 193);
+}
+.ServRed{
+    background-color: dodgerblue;
+}
+.SOR{
+    background-color: limegreen;
+}
+.Apweb{
+    background-color: gold;
 }
