@@ -18,6 +18,7 @@ th:nth-child(1){
 }
 
 td:nth-child(1){
+    text-align: center;
     border-radius: 50px;
     background-color: aquamarine;
 
@@ -33,24 +34,30 @@ th, td{
 
 
 .ingles{
+    text-align: center;
     background-color: green;
 }
 .Sinformatica{
+    text-align: center;
     background-color: rgb(236, 0, 193);
 }
 .ServRed{
+    text-align: center;
     background-color: dodgerblue;
 }
 .SOR{
+    text-align: center;
     background-color: limegreen;
 }
 .Apweb{
+    text-align: center;
     background-color: gold;
 }
 .Empresa{
+    text-align: center;
     background-color: salmon;
 }
 .recreo{
-    background-position: center ;
+    text-align: center;
     background-color: cyan;
 }
