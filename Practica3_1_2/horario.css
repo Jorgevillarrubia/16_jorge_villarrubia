@@ -35,7 +35,6 @@ td.recreo:hover{
     background-color: yellow;
 }
 
-
 .ingles{
     text-align: center;
     background-color: green;
@@ -63,4 +62,13 @@ td.recreo:hover{
 .recreo{
     text-align: center;
     background-color: cyan;
+}
+
+#aula{
+    visibility: hidden;
+}
+
+td.ServRed:hover #aula{
+    display: block;
+    visibility: visible;
 }
