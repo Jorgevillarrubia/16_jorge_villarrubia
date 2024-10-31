@@ -8,6 +8,7 @@ caption{
 
 }
 th{
+    border-radius: 50px;
     background-color: chocolate;
 }
 
@@ -16,7 +17,9 @@ th:nth-child(1){
     border: 0px;
 }
 
-td:nth-child(1){background-color: aquamarine;
+td:nth-child(1){
+    border-radius: 50px;
+    background-color: aquamarine;
 
 }
 
