@@ -1,0 +1,30 @@
+#nav ul li {
+    background-color: ;
+    padding: 10px 15px;
+    border: 5px solid rgb(31, 29, 29);
+}
+
+#nav ul li:hover {
+    background-color: ;
+}
+
+#nav ul li a {
+    color: white;
+    text-decoration: ;
+    font-size: 16px;
+}
+
+#nav ul li {
+    background-color: ;
+    padding: 10px 15px;
+    border: 5px solid rgb(31, 29, 29);
+}
+
+#nav ul li:hover {
+    background-color: ;
+}
+
+#nav ul li a {
+    color: violet;
+    text-decoration: solid;
+    font-size: 16px;
