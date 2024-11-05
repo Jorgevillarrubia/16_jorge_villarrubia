@@ -11,7 +11,18 @@
 .container header{
     grid-area: header;
 }
-.container 
+.container  main{
+    background-color: gold;
+    grid-area: main;
+}
+.container footer{
+    background-color: darkviolet;
+     grid-area: footer;
+}
+.container aside{
+    background-color: coral;
+    grid-area: aside;
+}
 header{
     background-color: blue;
 }
