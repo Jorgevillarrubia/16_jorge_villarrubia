@@ -1,30 +1,45 @@
-#nav ul li {
-    background-color: ;
-    padding: 10px 15px;
-    border: 5px solid rgb(31, 29, 29);
+#nav {
+    background-color: beige;
 }
 
-#nav ul li:hover {
-    background-color: ;
-}
-
-#nav ul li a {
-    color: white;
-    text-decoration: ;
-    font-size: 16px;
+#nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
 }
 
 #nav ul li {
-    background-color: ;
+    background-color: crimson;
     padding: 10px 15px;
-    border: 5px solid rgb(31, 29, 29);
+    border: 5px solid black;
 }
 
 #nav ul li:hover {
-    background-color: ;
+    background-color: blueviolet;
 }
 
 #nav ul li a {
-    color: violet;
-    text-decoration: solid;
+    color: aliceblue;
+    text-decoration: dashed;
     font-size: 16px;
+}
+
+.container {
+    display: flex;
+    background-color: blueviolet;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.container2 {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.caja {
+    background-color: orange;
+    margin: 5px;
+    padding: 5px;
+}

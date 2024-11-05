@@ -3,22 +3,50 @@
 
 <head>
     <title>Jorge Villarrubia</title>
-   <link rel="stylesheet" href="Flexlayout.css">
+    <link rel="stylesheet" href="Flexlayout.css">
     <style>
+        #nav {
+            background-color: beige;
+        }
+
+        #nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        #nav ul li {
+            background-color: crimson;
+            padding: 10px 15px;
+            border: 5px solid black;
+        }
+
+        #nav ul li:hover {
+            background-color: blueviolet;
+        }
+
+        #nav ul li a {
+            color: aliceblue;
+            text-decoration: dashed;
+            font-size: 16px;
+        }
+
         .container {
             display: flex;
             background-color: blueviolet;
             justify-content: flex-end;
             flex-direction: row;
         }
-        .container2{
+
+        .container2 {
             width: 100px;
             display: flex;
             flex-direction: column;
             background-color: black;
         }
+
         .caja {
-            background-color: orange;
+            background-color: rgb(255, 157, 0);
             margin: 5px;
             padding: 5px;
         }
