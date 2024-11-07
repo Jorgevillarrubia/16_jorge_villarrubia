@@ -1,0 +1,11 @@
+header img{
+
+    border-radius: 100px;
+}
+header{
+    background-image: url(descarga\ \(23\).jpeg);
+    text-align: center;
+    padding: 2%;
+    background-size: cover;
+    font-size: 25px;
+}
