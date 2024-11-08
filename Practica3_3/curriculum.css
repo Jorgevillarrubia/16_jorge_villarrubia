@@ -1,11 +1,33 @@
-header img{
+header img {
 
     border-radius: 100px;
 }
-header{
-    background-image: url(descarga\ \(23\).jpeg);
+
+header {
+    background-image: url('barra.jpeg');
     text-align: center;
     padding: 2%;
     background-size: cover;
     font-size: 25px;
+}
+
+nav {
+    justify-content: center;
+    background-color: lightpink;
+    display: flex;
+    grid-area: nav;
+}
+
+.knowledge {
+    justify-content: center;
+    background-color: plum;
+    display: flex;
+}
+
+.lenguages {
+    justify-content: center;
+    display: block;
+    grid: template rows 20em; ;
+    max-width: 100%;
+    padding: 5px;
 }
