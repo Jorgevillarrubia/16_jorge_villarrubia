@@ -1,16 +1,15 @@
 body {
+    font-size: 16px;
     margin: 0;
+    font-family: Montserrat,'Courier New';
 }
 
 header img {
-
     border-radius: 100px;
 }
+
 header h1{
     text-shadow: 2px 3px 0px rgb(128, 64, 144);
-    font-family: Montserrat;
-
-
 }
 
 header {
