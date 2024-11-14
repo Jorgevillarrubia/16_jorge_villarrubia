@@ -1,14 +1,14 @@
 body {
     font-size: 16px;
     margin: 0;
-    font-family: Montserrat,'Courier New';
+    font-family: Montserrat, 'Courier New';
 }
 
 header img {
     border-radius: 100px;
 }
 
-header h1{
+header h1 {
     text-shadow: 2px 3px 0px rgb(128, 64, 144);
 }
 
@@ -20,6 +20,7 @@ header {
     background: radial-gradient(circle, rgba(210, 83, 245, 1) 0%, rgba(148, 187, 233, 1) 100%);
     font-size: 20px;
 }
+
 nav {
     justify-content: space-between;
     background-color: #94bbe9;
@@ -71,6 +72,23 @@ h3 {
 h4 {
     color: rgb(161, 0, 179);
 }
-.contenedor{
-    
+
+.caja {
+    background-color: rgb(0, 174, 255);
+    margin: 5px;
+    padding: 5px;
+    border: 1px;
+    text-align: center;
+}
+.contenedor {
+    display:flex ;
+    text-align: center;
+    border: 1px;
+    display: flex;
+    background-color: #555 09e9;
+    justify-content: space-between;
+    flex-direction: row;
+}
+caja:hover{
+    background-color: yellow;
 }
