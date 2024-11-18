@@ -6,6 +6,7 @@ body {
 
 header img {
     border-radius: 100px;
+    width: 180px;
 }
 
 header h1 {
@@ -74,13 +75,17 @@ h4 {
 }
 
 .caja {
+    display: flex;
+    justify-content: center;
     background-color: rgb(0, 174, 255);
     margin: 5px;
     padding: 5px;
     border: 1px;
     text-align: center;
+    border: 1px;
 }
 .contenedor {
+    justify-content: center;
     display:flex ;
     text-align: center;
     border: 1px;
