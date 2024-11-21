@@ -22,12 +22,6 @@ header {
     font-size: 20px;
 }
 
-nav {
-    justify-content: space-between;
-    background-color: #94bbe9;
-    display: flex;
-    grid-area: nav;
-}
 
 section {
     padding-left: 15px;
@@ -74,24 +68,20 @@ h4 {
     color: rgb(161, 0, 179);
 }
 
-.caja {
+nav ul {
     display: flex;
-    justify-content: center;
-    background-color: rgb(0, 174, 255);
-    margin: 5px;
-    padding: 5px;
-    border: 1px;
-    text-align: center;
-    border: 1px;
-}
-.contenedor {
-    justify-content: center;
-    display:flex ;
-    text-align: center;
-    border: 1px;
-    display: flex;
-    background-color: #555 09e9;
     justify-content: space-between;
-    flex-direction: row;
+    background-color: #94bbe9;
+    margin-top:0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style: none;
+}
+
+nav ul li.active{
+    background-color: rgb(161, 0, 179);
+    color: white;
+    padding: 5px;
+    border: 1px solid;
 }
 
